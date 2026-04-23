@@ -36,17 +36,17 @@ export const Navbar = () => {
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">
           {[
-            { name: 'Tentang Kami', href: '#' },
+            { name: 'Tentang Kami', href: '#tentang-kami' },
             { name: 'Bisnis & Layanan', href: '#bisnis-layanan' },
-            { name: 'Keberlanjutan', href: '#' },
-            { name: 'Hubungan Investor', href: '#' },
-            { name: 'Media', href: '#' }
+            { name: 'Keberlanjutan', href: '#keberlanjutan' },
+            { name: 'Hubungan Investor', href: '#hubungan-investor' },
+            { name: 'Media', href: '#media' }
           ].map((item) => (
             <a href={item.href} key={item.name} className="group relative cursor-pointer flex items-center">
               <span className={clsx('text-sm font-semibold transition-colors', scrolled ? 'text-slate-700 hover:text-red-600' : 'text-white/90 hover:text-white')}>
                 {item.name}
               </span>
-              {item.name !== 'Bisnis & Layanan' && <ChevronDown className={clsx("ml-1 w-4 h-4", scrolled ? 'text-slate-400' : 'text-white/70')} />}
+              {item.name !== 'Tentang Kami' && item.name !== 'Bisnis & Layanan' && item.name !== 'Keberlanjutan' && item.name !== 'Hubungan Investor' && item.name !== 'Media' && <ChevronDown className={clsx("ml-1 w-4 h-4", scrolled ? 'text-slate-400' : 'text-white/70')} />}
             </a>
           ))}
         </div>

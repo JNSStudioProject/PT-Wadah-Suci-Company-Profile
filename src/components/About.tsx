@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export const About = () => {
   return (
-    <div className="py-24 bg-white relative overflow-hidden">
+    <div id="tentang-kami" className="py-24 bg-white relative overflow-hidden">
       {/* Background Geometrics */}
       <div className="absolute top-0 right-0 w-1/3 h-full bg-slate-50 -skew-x-12 transform origin-top-right" />
       

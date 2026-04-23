@@ -12,7 +12,7 @@ type NewsArticle = {
 
 export const News = ({ data }: { data: NewsArticle[] }) => {
   return (
-    <div className="py-24 bg-slate-50 relative">
+    <div id="media" className="py-24 bg-slate-50 relative">
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex justify-between items-end mb-12">
           <div className="max-w-2xl">

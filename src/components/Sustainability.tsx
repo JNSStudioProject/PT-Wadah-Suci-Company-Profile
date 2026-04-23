@@ -10,7 +10,7 @@ const metrics = [
 
 export const Sustainability = () => {
   return (
-    <div className="py-24 bg-slate-900 relative overflow-hidden text-white">
+    <div id="keberlanjutan" className="py-24 bg-slate-900 relative overflow-hidden text-white">
       {/* Background Graphic */}
       <div className="absolute right-0 top-0 w-1/2 h-full opacity-10 pointer-events-none">
         <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="w-full h-full">

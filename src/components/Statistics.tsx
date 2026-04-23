@@ -10,7 +10,7 @@ const stats = [
 
 export const Statistics = () => {
   return (
-    <div className="py-20 bg-slate-50 relative -mt-20 z-20">
+    <div id="hubungan-investor" className="py-20 bg-slate-50 relative -mt-20 z-20">
       <div className="container mx-auto px-6 md:px-12">
         <div className="bg-white rounded-xl shadow-2xl p-10 md:p-16 flex flex-wrap justify-between items-center relative overflow-hidden">
           {/* Subtle decoration */}
