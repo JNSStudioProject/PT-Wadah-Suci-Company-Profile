@@ -27,7 +27,7 @@ const services = [
 
 export const Services = () => {
   return (
-    <div className="py-24 bg-slate-50 relative">
+    <div id="bisnis-layanan" className="py-24 bg-slate-50 relative">
       <div className="container mx-auto px-6 md:px-12">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-4xl font-extrabold text-slate-900 mb-4">Layanan Unggulan Kami</h2>

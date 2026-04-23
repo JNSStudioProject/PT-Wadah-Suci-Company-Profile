@@ -23,7 +23,7 @@ export const About = () => {
               Membangun Fondasi Masa Depan Indonesia
             </h2>
             <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-              PT Wadah Suci adalah pelopor industri bahan bangunan terintegrasi di Indonesia. Sejak didirikan, kami telah berkomitmen untuk menyediakan solusi konstruksi inovatif dan berkelanjutan.
+              PT Wajah baru adalah pelopor industri bahan bangunan terintegrasi di Indonesia. Sejak didirikan, kami telah berkomitmen untuk menyediakan solusi konstruksi inovatif dan berkelanjutan.
             </p>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
               Dengan fasilitas produksi berteknologi mutakhir dan sumber daya manusia yang handal, kami terus memperkuat jejak langkah dalam mendukung pembangunan infrastruktur nasional yang tangguh dan ramah lingkungan.
@@ -44,7 +44,7 @@ export const About = () => {
             <div className="aspect-[4/3] rounded-sm overflow-hidden shadow-2xl relative">
               <img 
                 src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop" 
-                alt="Fasilitas Pabrik Wadah Suci"
+                alt="Fasilitas Pabrik Wajah baru"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent flex items-end p-8">
@@ -54,7 +54,7 @@ export const About = () => {
                     Inovasi adalah kunci kami untuk terus relevan dan memberikan nilai tambah yang nyata bagi kemajuan bangsa.
                   </p>
                   <footer className="mt-4 text-sm text-slate-300 font-semibold uppercase tracking-wider">
-                    — Dewan Direksi PT Wadah Suci
+                    — Dewan Direksi PT Wajah baru
                   </footer>
                 </blockquote>
               </div>

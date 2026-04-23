@@ -31,10 +31,10 @@ export const Footer = () => {
               <div className="w-10 h-10 bg-red-600 rounded-sm flex items-center justify-center">
                 <span className="text-white font-bold text-xl">W</span>
               </div>
-              <span className="font-bold text-2xl tracking-tight">Wadah Suci</span>
+              <span className="font-bold text-2xl tracking-tight">Wajah baru</span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
-              PT Wadah Suci Tbk adalah penyedia solusi bahan bangunan terkemuka di Asia Tenggara, melangkah maju dengan inovasi dan keberlanjutan.
+              PT Wajah baru Tbk adalah penyedia solusi bahan bangunan terkemuka di Asia Tenggara, melangkah maju dengan inovasi dan keberlanjutan.
             </p>
             <div className="flex space-x-4">
               {[Globe, MessageCircle, Share2, Link, Tv].map((Icon, idx) => (
@@ -75,7 +75,7 @@ export const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start text-slate-400 text-sm">
                 <MapPin className="w-5 h-5 mr-3 text-red-500 flex-shrink-0 mt-0.5" />
-                <span>Menara Wadah Suci, Lt. 25<br/>Jl. Jend. Sudirman Kav. 12<br/>Jakarta Selatan 12920<br/>Indonesia</span>
+                <span>Jl. Ir. H. Juanda No.103<br/>Kp. Dalam, Kec. Senapelan<br/>Kota Pekanbaru, Riau 28151<br/>Indonesia</span>
               </li>
               <li className="flex items-center text-slate-400 text-sm">
                 <Phone className="w-5 h-5 mr-3 text-red-500 flex-shrink-0" />
@@ -83,7 +83,7 @@ export const Footer = () => {
               </li>
               <li className="flex items-center text-slate-400 text-sm">
                 <Mail className="w-5 h-5 mr-3 text-red-500 flex-shrink-0" />
-                <span>info@wadahsuci.com</span>
+                <span>info@wajahbaru.com</span>
               </li>
             </ul>
           </div>
@@ -92,7 +92,7 @@ export const Footer = () => {
 
       {/* Copyright */}
       <div className="container mx-auto px-6 md:px-12 py-6 flex flex-col md:flex-row justify-between items-center text-slate-500 text-xs">
-        <p>&copy; {new Date().getFullYear()} PT Wadah Suci Tbk. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} PT Wajah baru Tbk. All rights reserved.</p>
         <div className="flex space-x-6 mt-4 md:mt-0">
           <a href="#" className="hover:text-white transition-colors">Syarat & Ketentuan</a>
           <a href="#" className="hover:text-white transition-colors">Kebijakan Privasi</a>

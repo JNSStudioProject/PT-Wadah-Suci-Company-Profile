@@ -15,11 +15,11 @@ async function main() {
   // Seed News
   await db.insert(news).values([
     {
-      title: 'PT Wadah Suci Raih Penghargaan Industri Hijau 2026',
+      title: 'PT Wajah baru Raih Penghargaan Industri Hijau 2026',
       category: 'Penghargaan',
       date: '22 April 2026',
       image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000&auto=format&fit=crop',
-      excerpt: 'Komitmen berkelanjutan membawa PT Wadah Suci memenangkan penghargaan tertinggi dalam penerapan industri hijau.'
+      excerpt: 'Komitmen berkelanjutan membawa PT Wajah baru memenangkan penghargaan tertinggi dalam penerapan industri hijau.'
     },
     {
       title: 'Ekspansi Pabrik Baru di Jawa Timur',

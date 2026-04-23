@@ -29,19 +29,25 @@ export const Navbar = () => {
             <span className="text-white font-bold text-xl">W</span>
           </div>
           <span className={clsx('font-bold text-xl tracking-tight', scrolled ? 'text-slate-900' : 'text-white')}>
-            Wadah Suci
+            Wajah baru
           </span>
         </div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">
-          {['Tentang Kami', 'Bisnis & Layanan', 'Keberlanjutan', 'Hubungan Investor', 'Media'].map((item) => (
-            <div key={item} className="group relative cursor-pointer flex items-center">
+          {[
+            { name: 'Tentang Kami', href: '#' },
+            { name: 'Bisnis & Layanan', href: '#bisnis-layanan' },
+            { name: 'Keberlanjutan', href: '#' },
+            { name: 'Hubungan Investor', href: '#' },
+            { name: 'Media', href: '#' }
+          ].map((item) => (
+            <a href={item.href} key={item.name} className="group relative cursor-pointer flex items-center">
               <span className={clsx('text-sm font-semibold transition-colors', scrolled ? 'text-slate-700 hover:text-red-600' : 'text-white/90 hover:text-white')}>
-                {item}
+                {item.name}
               </span>
-              <ChevronDown className={clsx("ml-1 w-4 h-4", scrolled ? 'text-slate-400' : 'text-white/70')} />
-            </div>
+              {item.name !== 'Bisnis & Layanan' && <ChevronDown className={clsx("ml-1 w-4 h-4", scrolled ? 'text-slate-400' : 'text-white/70')} />}
+            </a>
           ))}
         </div>
 

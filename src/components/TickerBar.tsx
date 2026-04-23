@@ -16,7 +16,7 @@ export const TickerBar = () => {
               <span className="text-green-300">▲ 6,450.00 (+1.2%)</span>
             </span>
             <span className="text-white/40">|</span>
-            <span>Berita Terkini: PT Wadah Suci Resmikan Fasilitas Pabrik Baru di Jawa Timur</span>
+            <span>Berita Terkini: PT Wajah baru Resmikan Fasilitas Pabrik Baru di Jawa Timur</span>
             <span className="text-white/40">|</span>
             <span>Pengumuman RUPS Tahunan 2026</span>
           </div>
